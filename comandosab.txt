@@ -84,3 +84,49 @@ Fast-forward
  1 file changed, 1 insertion(+)
 -----------------no lo subo
 
+
+EAG@A5PC16 MINGW64 ~/Desktop/Silksong (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 297 bytes | 14.00 KiB/s, done.
+From https://github.com/veeraG21/Silksong
+ * branch            main       -> FETCH_HEAD
+   bda2953..7554d80  main       -> origin/main
+Updating bda2953..7554d80
+Fast-forward
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+EAG@A5PC16 MINGW64 ~/Desktop/Silksong (main)
+$ git add .
+warning: LF will be replaced by CRLF in comandosab.txt.
+The file will have its original line endings in your working directory
+
+EAG@A5PC16 MINGW64 ~/Desktop/Silksong (main)
+$ git add .
+
+EAG@A5PC16 MINGW64 ~/Desktop/Silksong (main)
+$ git commit -m "segundo commit del alumno AAAAAA"
+[main 4d62f9f] segundo commit del alumno AAAAAA
+ 2 files changed, 87 insertions(+)
+ create mode 100644 comandosab.txt
+
+EAG@A5PC16 MINGW64 ~/Desktop/Silksong (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 295 bytes | 13.00 KiB/s, done.
+From https://github.com/veeraG21/Silksong
+ * branch            main       -> FETCH_HEAD
+   7554d80..2ffa937  main       -> origin/main
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+----commit 2 A
+
