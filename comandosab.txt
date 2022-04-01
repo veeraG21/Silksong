@@ -236,4 +236,35 @@ From https://github.com/veeraG21/Silksong
  * branch            main       -> FETCH_HEAD
 Already up to date.
 ------------actualizo y me bajo el trabajo del a
+EAG@A5PC17 MINGW64 ~/Desktop/Silksong (main)
+$ git pull origin main
+From https://github.com/veeraG21/Silksong
+ * branch            main       -> FETCH_HEAD
+Already up to date.
 
+EAG@A5PC17 MINGW64 ~/Desktop/Silksong (main)
+$ git pull origin main
+From https://github.com/veeraG21/Silksong
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+EAG@A5PC17 MINGW64 ~/Desktop/Silksong (main)
+$ git add .
+
+EAG@A5PC17 MINGW64 ~/Desktop/Silksong (main)
+$ git commit -m "subida de comandostxt unidooooooooooooooooo"
+[main 694a467] subida de comandostxt unidooooooooooooooooo
+ 1 file changed, 108 insertions(+), 1 deletion(-)
+
+EAG@A5PC17 MINGW64 ~/Desktop/Silksong (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 863 bytes | 863.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/veeraG21/Silksong.git
+   0395990..694a467  main -> main
+----------------acualizado el txt de comandos
